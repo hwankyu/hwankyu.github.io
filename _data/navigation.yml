@@ -1,12 +1,58 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
+    url: /quick-start-guide/
+  - title: "Layouts"
+    url: /layouts/
+  - title: "Sample Posts"
   #   url: /year-archive/
-  # - title: "Sample Collections"
+  - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
+  - title: "Sitemap"
   #   url: /sitemap/
+
+# sidebar
+sidebar:
+  - title: "GETTING STARTED"
+  - title: "Quick-Start Guide"
+    url: /quick-start-guide
+    children:
+      - title: "Structure"
+        url: /structure/
+      - title: "Overriding Theme Defaults"
+        url: /overriding-theme-defaults/
+      - title: "Child Page A4"
+        url: /
+      - title: "hello"
+        url: /hello
+  - title: "Layouts"
+    url: /layouts/
+    children:
+      - title: "Layout: Header Image (Horizontal)"
+        url: /layouts/layout-header-image-horizontal
+      - title: "Layout: Header Image Overlay"
+        url: /layouts/layout-header-overlay-image
+      - title: "Layout: Sidebar with Navigation List"
+        url: /layouts/layout-sidebar-nav-list
+      - title: "Layout: Sidebar Custom"
+        url: /layouts/layout-sidebar-custom
+      - title: "Child Page B5"
+        url: /
+  - title: "Content"
+    children:
+      - title: "Posts"
+        url: /content/posts
+      - title: "Pages"
+        url: /content/pages
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /

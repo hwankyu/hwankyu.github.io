@@ -1,10 +1,11 @@
 ---
 title: "Layout: Sidebar with Navigation List"
 excerpt: "A post with a sidebar navigation list."
+permalink: /layouts/layout-sidebar-nav-list/
 author_profile: false
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
+  title: "Jekyll Test"
+  nav: sidebar
 ---
 
 This post has a custom navigation list set in the post's YAML Front Matter.
@@ -18,7 +19,7 @@ sidebar:
 Along with navigation elements set in `_data/navigation.yml`.
 
 ```yaml
-sidebar-sample:
+sidebar:
   - title: "Parent Page A"
     children:
       - title: "Child Page A1"
@@ -29,6 +30,8 @@ sidebar-sample:
         url: /
       - title: "Child Page A4"
         url: /
+      - title : "layout-sidebar-nav-list"
+        url: /layouts/layout-sidebar-nav-list
   - title: "Parent Page B"
     children:
       - title: "Child Page B1"

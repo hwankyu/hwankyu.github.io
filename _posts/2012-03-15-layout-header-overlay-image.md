@@ -16,6 +16,11 @@ tags:
   - image
   - layout
 last_modified_at: 2016-05-02T11:39:01-04:00
+permalink: /layouts/layout-header-overlay-image/
+author_profile: false
+sidebar:
+  title: "Jekyll Test"
+  nav: sidebar
 ---
 
 This post should display a **header with an overlay image**, if the theme supports it.

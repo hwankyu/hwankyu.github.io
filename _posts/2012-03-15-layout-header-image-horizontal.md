@@ -11,6 +11,11 @@ tags:
   - featured image
   - image
   - layout
+permalink: /layouts/layout-header-image-horizontal/
+author_profile: false
+sidebar:
+  title: "Jekyll Test"
+  nav: sidebar
 ---
 
 This post should display a **header image**, if the theme supports it.
